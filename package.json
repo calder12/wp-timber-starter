@@ -1,0 +1,27 @@
+{
+  "name": "calderio-starter",
+  "version": "0.0.1",
+  "description": "WordPress starter theme using Timber by Upstatement",
+  "main": "index.js",
+  "scripts": {
+    "webpack": "NODE_ENV=development webpack --progress --hide-modules",
+    "dev": "NODE_ENV=development webpack --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "hmr": "NODE_ENV=development webpack-dev-server --inline --hot",
+    "production": "NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/calder12/wp-timber-starter.git"
+  },
+  "author": "Rick Calder",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/calder12/wp-timber-starter/issues"
+  },
+  "homepage": "https://github.com/calder12/wp-timber-starter#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "browser-sync-webpack-plugin": "^2.0.1",
+    "laravel-mix": "^2.1.14"
+  }
+}
